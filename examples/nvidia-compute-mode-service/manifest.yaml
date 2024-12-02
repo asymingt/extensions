@@ -1,0 +1,10 @@
+version: v1alpha1
+metadata:
+  name: nvidia-compute-mode-service
+  version: "$VERSION"
+  author: Andrew Symington
+  description: |
+    This system extension configures GPUs for different compute modes
+  compatibility:
+    talos:
+      version: ">= v1.0.0"

@@ -1,0 +1,4 @@
+name: nvidia-compute-mode
+container:
+  entrypoint: ./nvidia-compute-mode
+restart: untilSuccess
